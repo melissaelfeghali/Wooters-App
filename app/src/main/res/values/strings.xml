@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Wooters</string>
+    <string name="action_subscribe">Subscribe</string>
+    <string name="action_home">Home Page</string>
+    <string name="action_bookmarks">Bookmarks</string>
+    <string name="title">Title</string>
+    <string name="hint_name">Name</string>
+    <string name="content_description_name">Name Icon</string>
+    <string name="content_description_logo">Logo</string>
+    <string name="explore">Explore</string>
+    <string name="button_woods"><b>Woods</b></string>
+    <string name="button_waters"><b>Waters</b></string>
+    <string name="subscription_intro_one">Get our hottest stories delivered to your inbox</string>
+    <string name="subscription_intro_two">Subscribe to our newsletter to get personalized updates on top locations and hidden gems</string>
+    <string name="enter_email">Enter your email</string>
+    <string name="enter_name"> Enter your name</string>
+    <string name="subscribe_button">Subscribe</string>
+    <string name="image_button">Image Button</string>
+    <string name="choose_water"><b>WATERS</b></string>
+    <string name="content_desc_water">Water Image</string>
+    <string name="bookmark_button">Add to Bookmarks</string>
+    <string name="review_button">Add Review</string>
+    <string name="instruction_swipe">Swipe for more pictures</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="coming_soon">Coming Soon</string>
+    <string name="under_construction">Under Construction</string>
+    <string name="construction_image">construction_image</string>
+    <string name="info_image">Info Image</string>
+    <string name="woods">WOODS</string>
+    <string name="channel_name">WOOTERS Newsletter</string>
+    <string name="channel_description">Channel for receiving subscription confirmation</string>
+
+</resources>

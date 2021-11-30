@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeFragment">
+
+    <ImageView
+        android:id="@+id/main_logo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:contentDescription="@string/content_description_logo"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/about_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:fontFamily="@font/nunito_sans_bold"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/yellow"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:fontFamily="@font/nunito_sans_extra_bold"
+            android:text="@string/explore"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/woods_button"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:background="@drawable/woods_rounded_corners"
+                android:fontFamily="@font/nunito_sans_extra_bold"
+                android:text="@string/button_woods"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:id="@+id/waters_button"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="50dp"
+                android:background="@drawable/waters_rounded_corners"
+                android:fontFamily="@font/nunito_sans_extra_bold"
+                android:text="@string/button_waters"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                tools:ignore="ButtonStyle" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

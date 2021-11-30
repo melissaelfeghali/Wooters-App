@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView_selected_water"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="4dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/nunito_sans_extra_bold"
+            android:textColor="@color/orange"
+            android:textSize="30sp"
+            tools:text="TITLE" />
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewPagerMain"
+            android:layout_width="350dp"
+            android:layout_height="300dp"
+            android:layout_below="@id/title_text_view"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/instruction_slider"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/viewPagerMain"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="20dp"
+            android:text="@string/instruction_swipe" />
+
+        <LinearLayout
+            android:id="@+id/location_linear_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/instruction_slider"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:src="@drawable/outline_place_black_36" />
+
+            <TextView
+                android:id="@+id/location_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nunito_sans_bold"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                tools:text="Location" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/info_linear_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/location_linear_layout"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:contentDescription="@string/info_image"
+                android:src="@drawable/outline_info_black_36" />
+
+            <TextView
+                android:id="@+id/info_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nunito_sans_bold"
+                android:textColor="@color/black"
+                tools:text="Info" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/button_linear_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/info_linear_layout"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/bookmark_button"
+                android:layout_width="130dp"
+                android:layout_height="55dp"
+                android:layout_marginEnd="15dp"
+                android:background="@drawable/subscribe_rounded_corners"
+                android:fontFamily="@font/nunito_sans_extra_bold"
+                android:text="@string/bookmark_button" />
+
+            <Button
+                android:id="@+id/review_button"
+                android:layout_width="130dp"
+                android:layout_height="55dp"
+                android:background="@drawable/subscribe_rounded_corners"
+                android:fontFamily="@font/nunito_sans_extra_bold"
+                android:text="@string/review_button" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/review_complete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button_linear_layout"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/nunito_sans_bold"
+            android:textAlignment="center"
+            android:textColor="@color/black" />
+
+    </RelativeLayout>
+
+
+</ScrollView>
+
+
+
+

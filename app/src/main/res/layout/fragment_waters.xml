@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+
+    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        tools:context=".WatersActivity">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/image_button_baatara"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_margin="8dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/round_button"
+                android:contentDescription="@string/image_button"
+                android:onClick="onClick"
+                android:scaleType="fitCenter"
+                android:src="@drawable/baatara" />
+
+            <ImageButton
+                android:id="@+id/image_button_kfarhelda"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_margin="8dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/round_button"
+                android:contentDescription="@string/image_button"
+                android:onClick="onClick"
+                android:scaleType="fitCenter"
+                android:src="@drawable/kfarhelda" />
+
+            <ImageButton
+                android:id="@+id/image_button_jezzine"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_margin="8dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/round_button"
+                android:contentDescription="@string/image_button"
+                android:onClick="onClick"
+                android:scaleType="fitCenter"
+                android:src="@drawable/jezzine" />
+
+            <ImageButton
+                android:id="@+id/image_button_afqa"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_margin="8dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/round_button"
+                android:contentDescription="@string/image_button"
+                android:onClick="onClick"
+                android:scaleType="fitCenter"
+                android:src="@drawable/afqa" />
+
+            <ImageButton
+                android:id="@+id/image_button_chouwen"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_margin="8dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/round_button"
+                android:contentDescription="@string/image_button"
+                android:onClick="onClick"
+                android:scaleType="fitCenter"
+                android:src="@drawable/chouwen" />
+
+            <ImageButton
+                android:id="@+id/image_button_nahr_jahliye"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_margin="8dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/round_button"
+                android:contentDescription="@string/image_button"
+                android:onClick="onClick"
+                android:scaleType="fitCenter"
+                android:src="@drawable/nahr_jahliye" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/image_button_baakline"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_margin="8dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/round_button"
+                android:contentDescription="@string/image_button"
+                android:onClick="onClick"
+                android:scaleType="fitCenter"
+                android:src="@drawable/baakline" />
+
+            <ImageButton
+                android:id="@+id/image_button_atika"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_margin="8dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/round_button"
+                android:contentDescription="@string/image_button"
+                android:onClick="onClick"
+                android:scaleType="fitCenter"
+                android:src="@drawable/atika" />
+
+            <ImageButton
+                android:id="@+id/image_button_qannoubine"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_margin="8dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/round_button"
+                android:contentDescription="@string/image_button"
+                android:onClick="onClick"
+                android:scaleType="fitCenter"
+                android:src="@drawable/qannoubine" />
+
+            <ImageButton
+                android:id="@+id/image_button_serjbel"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_margin="8dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/round_button"
+                android:contentDescription="@string/image_button"
+                android:onClick="onClick"
+                android:scaleType="fitCenter"
+                android:src="@drawable/serjbel" />
+
+            <ImageButton
+                android:id="@+id/image_button_akoura"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_margin="8dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/round_button"
+                android:contentDescription="@string/image_button"
+                android:onClick="onClick"
+                android:scaleType="fitCenter"
+                android:src="@drawable/akoura" />
+
+            <ImageButton
+                android:id="@+id/image_button_assi_river"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_margin="8dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/round_button"
+                android:contentDescription="@string/image_button"
+                android:onClick="onClick"
+                android:scaleType="fitCenter"
+                android:src="@drawable/assi_river" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>
